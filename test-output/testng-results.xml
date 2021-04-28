@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="3" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening the browser]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing the window]]>
+    </line>
+    <line>
+      <![CDATA[Scrolling down]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the bookstoreapplication]]>
+    </line>
+    <line>
+      <![CDATA[Verified new page loaded]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-04-28T10:07:29 IST" name="TestsAll" finished-at="2021-04-28T10:07:40 IST" duration-ms="10621">
+    <groups>
+    </groups>
+    <test started-at="2021-04-28T10:07:29 IST" name="testrun" finished-at="2021-04-28T10:07:40 IST" duration-ms="10621">
+      <class name="com.qa.tests.HomePageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.tests.HomePageTest@314c508a]" started-at="2021-04-28T10:07:26 IST" name="beforeSuite" finished-at="2021-04-28T10:07:29 IST" duration-ms="3148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="clickOnBookstoreApplication()[pri:0, instance:com.qa.tests.HomePageTest@314c508a]" started-at="2021-04-28T10:07:29 IST" name="clickOnBookstoreApplication" finished-at="2021-04-28T10:07:35 IST" duration-ms="5796" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening the browser]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing the window]]>
+            </line>
+            <line>
+              <![CDATA[Scrolling down]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the bookstoreapplication]]>
+            </line>
+            <line>
+              <![CDATA[Verified new page loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickOnBookstoreApplication -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.tests.HomePageTest@314c508a]" started-at="2021-04-28T10:07:40 IST" name="afterSuite" finished-at="2021-04-28T10:07:42 IST" duration-ms="2402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.qa.tests.HomePageTest -->
+      <class name="com.qa.tests.BookStoreTest">
+        <test-method signature="oreillySiteLaunced()[pri:0, instance:com.qa.tests.BookStoreTest@6b67034]" started-at="2021-04-28T10:07:36 IST" name="oreillySiteLaunced" finished-at="2021-04-28T10:07:40 IST" duration-ms="3248" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.qa.tests.BookStoreTest.oreillySiteLaunced(BookStoreTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oreillySiteLaunced -->
+        <test-method signature="secondBookStore()[pri:0, instance:com.qa.tests.BookStoreTest@6b67034]" started-at="2021-04-28T10:07:40 IST" name="secondBookStore" finished-at="2021-04-28T10:07:40 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondBookStore -->
+      </class> <!-- com.qa.tests.BookStoreTest -->
+      <class name="com.qa.tests.BookStoreApplicationTest">
+        <test-method signature="bookStorePage()[pri:0, instance:com.qa.tests.BookStoreApplicationTest@10b48321]" started-at="2021-04-28T10:07:35 IST" name="bookStorePage" finished-at="2021-04-28T10:07:35 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookStorePage -->
+        <test-method signature="thirdBookElementClicked()[pri:0, instance:com.qa.tests.BookStoreApplicationTest@10b48321]" started-at="2021-04-28T10:07:35 IST" name="thirdBookElementClicked" finished-at="2021-04-28T10:07:36 IST" duration-ms="1379" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.qa.tests.BookStoreApplicationTest.thirdBookElementClicked(BookStoreApplicationTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdBookElementClicked -->
+      </class> <!-- com.qa.tests.BookStoreApplicationTest -->
+    </test> <!-- testrun -->
+  </suite> <!-- TestsAll -->
+</testng-results>
